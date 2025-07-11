@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arabic Daily Tasks</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📘 Arabic Daily Tasks</h1>
+    <p class="intro">Complete these 4 steps daily to grow your Saudi Arabic skills!</p>
+
+    <div class="task">
+      <input type="checkbox" id="task1" onclick="checkTasks()">
+      <label for="task1">
+        1. Learn 5 phrases out loud from 
+        <a href="https://your-link-1.com" target="_blank">this video</a>
+      </label>
+    </div>
+
+    <div class="task">
+      <input type="checkbox" id="task2" onclick="checkTasks()">
+      <label for="task2">
+        2. Review them as flashcards during/after work: 
+        <a href="https://your-link-2.com" target="_blank">flashcard review</a>
+      </label>
+    </div>
+
+    <div class="task">
+      <input type="checkbox" id="task3" onclick="checkTasks()">
+      <label for="task3">
+        3. Record yourself using them
+      </label>
+    </div>
+
+    <div class="task">
+      <input type="checkbox" id="task4" onclick="checkTasks()">
+      <label for="task4">
+        4. Watch Saudi dialect content:
+        <a href="https://your-saudi-content-link.com" target="_blank">watch here</a>
+      </label>
+    </div>
+
+    <div id="popup" class="popup hidden">
+      <div class="popup-content">
+        🥳 Great job! You completed all your daily tasks!
+        <br/><span style="font-size: 2rem;">🏆</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
